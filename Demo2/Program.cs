@@ -398,46 +398,46 @@ namespace Demo2
             #region Q5
             //Write a program that takes character from the user then if it is a vowel chars(a, e, I, o, u)
             //then print(vowel) otherwise print(consonant).
-            Console.WriteLine("Please enter a char:");
-            string character = Console.ReadLine();
-            switch (character)
-            {
-                case "a" or "A":
-                    Console.WriteLine("vowel");
-                    break;
-                case "e" or "E":
-                    Console.WriteLine("vowel");
-                    break;
-                case "o" or "O":
-                    Console.WriteLine("vowel");
-                    break;
-                case "i" or "I":
-                    Console.WriteLine("vowel");
-                    break;
-                case "u" or "U":
-                    Console.WriteLine("vowel");
-                    break;
-                default:
-                    Console.WriteLine("consonant");
-                    break;
+            //Console.WriteLine("Please enter a char:");
+            //string character = Console.ReadLine();
+            //switch (character)
+            //{
+            //    case "a" or "A":
+            //        Console.WriteLine("vowel");
+            //        break;
+            //    case "e" or "E":
+            //        Console.WriteLine("vowel");
+            //        break;
+            //    case "o" or "O":
+            //        Console.WriteLine("vowel");
+            //        break;
+            //    case "i" or "I":
+            //        Console.WriteLine("vowel");
+            //        break;
+            //    case "u" or "U":
+            //        Console.WriteLine("vowel");
+            //        break;
+            //    default:
+            //        Console.WriteLine("consonant");
+            //        break;
 
-            }
+            //}
             #endregion
             #region Q7
 
             //Write a program that allows the user to insert an integer then
             //print a multiplication table up to 12.
-            //Console.WriteLine("Please enter a number:");
-            //int Num = int.Parse(Console.ReadLine());
-            //int mul;
-            //Console.Clear();
+            Console.WriteLine("Please enter a number:");
+            int Num = int.Parse(Console.ReadLine());
+            int mul;
+            Console.Clear();
 
-            //for (int i = 1; i <= 12; i++)
-            //{
-            //    mul = Num * i;
-            //    Console.WriteLine(mul);
+            for (int i = 1; i <= 12; i++)
+            {
+                mul = Num * i;
+                Console.WriteLine(mul);
 
-            //}
+            }
 
 
             #endregion
