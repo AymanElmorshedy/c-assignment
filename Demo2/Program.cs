@@ -575,22 +575,22 @@ namespace Demo2
             //This shows that the value types are stored as separate copies, and modifying one copy does not affect the other.
             #endregion
             #region Q22
-            object obj1 = new object();
-            obj1 = "Ayman";
-            object obj2 = new object();
-            obj2 = obj1;
+            //object obj1 = new object();
+            //obj1 = "Ayman";
+            //object obj2 = new object();
+            //obj2 = obj1;
 
 
-            Console.WriteLine("Before modification:");
-            Console.WriteLine($"obj1= {obj1} ");
-            Console.WriteLine($"obj2 = {obj2}");
+            //Console.WriteLine("Before modification:");
+            //Console.WriteLine($"obj1= {obj1} ");
+            //Console.WriteLine($"obj2 = {obj2}");
 
 
-            obj1 = "Ali";
+            //obj1 = "Ali";
 
-            Console.WriteLine("After modification:");
-            Console.WriteLine($"obj1= {obj1} ");
-            Console.WriteLine($"obj2 = {obj2}");
+            //Console.WriteLine("After modification:");
+            //Console.WriteLine($"obj1= {obj1} ");
+            //Console.WriteLine($"obj2 = {obj2}");
             //When you assign a reference variable to another, both variables refer to the same object, so any modification to the object affects all references to it.
             #endregion
             #region Q23
