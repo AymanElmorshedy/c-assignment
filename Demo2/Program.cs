@@ -346,54 +346,54 @@ namespace Demo2
 
             //Write a program that takes 3 integers from the user
             //then prints the max element and the min element.
-            Console.WriteLine("Please inter num1: ");
-            int Num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("please enter num 2:");
-            int Num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter num3 :");
-            int Num3 = int.Parse(Console.ReadLine());
-            int max = 0, min = 0;
+            //Console.WriteLine("Please inter num1: ");
+            //int Num1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("please enter num 2:");
+            //int Num2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter num3 :");
+            //int Num3 = int.Parse(Console.ReadLine());
+            //int max = 0, min = 0;
 
-            if (Num1 > Num2)
-            {
-                max = Num1;
-                if (Num3 > max)
-                    max = Num3;
-            }
-            if (Num2 > Num1)
-            {
-                max = Num2;
-                if (Num3 > max)
-                    max = Num3;
-            }
-            if (Num1 < Num2)
-            {
-                min = Num1;
-                if (Num3 < min)
-                    min = Num3;
-            }
-            if (Num2 < Num1)
-            {
-                min = Num2;
-                if (Num3 < min)
-                    min = Num3;
-            }
-            Console.WriteLine($"min is {min} and max is {max} ");
+            //if (Num1 > Num2)
+            //{
+            //    max = Num1;
+            //    if (Num3 > max)
+            //        max = Num3;
+            //}
+            //if (Num2 > Num1)
+            //{
+            //    max = Num2;
+            //    if (Num3 > max)
+            //        max = Num3;
+            //}
+            //if (Num1 < Num2)
+            //{
+            //    min = Num1;
+            //    if (Num3 < min)
+            //        min = Num3;
+            //}
+            //if (Num2 < Num1)
+            //{
+            //    min = Num2;
+            //    if (Num3 < min)
+            //        min = Num3;
+            //}
+            //Console.WriteLine($"min is {min} and max is {max} ");
 
             #endregion
             #region Q4
             //Write a program that allows the user to insert an integer number then check If a number is even or odd.
-            //Console.WriteLine("Pleased entert a number:");
-            //int Num = int.Parse(Console.ReadLine());
-            //if(Num % 2==0)
-            //{
-            //    Console.WriteLine($"{Num} is even number");
-            //}
-            //else 
-            //    {
-            //    Console.WriteLine($"{Num} is Odd number");
+            Console.WriteLine("Pleased entert a number:");
+            int Num = int.Parse(Console.ReadLine());
+            if (Num % 2 == 0)
+            {
+                Console.WriteLine($"{Num} is even number");
+            }
+            else
+            {
+                Console.WriteLine($"{Num} is Odd number");
 
-            //    }
+            }
             #endregion
             #region Q5
             //Write a program that takes character from the user then if it is a vowel chars(a, e, I, o, u)
