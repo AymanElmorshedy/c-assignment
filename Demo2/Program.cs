@@ -605,7 +605,7 @@ namespace Demo2
             #region Q24
             //24-	Which of the following is the correct output for the C# code given below?
             //Console.WriteLine(13 / 2 + " " + 13 % 2); 
-            // Answer d)6 1
+             //Answer d)6 1
             #endregion
             #region Q25
             //25-What will be the output of the C# code given below?
