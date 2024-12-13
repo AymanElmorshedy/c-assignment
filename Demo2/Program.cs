@@ -443,32 +443,32 @@ namespace Demo2
             #endregion
             #region Q9
             //9- Write a program that takes two integers then prints the power.
-            Console.WriteLine("Please enter num 1:");
-            int Num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter num 2 : ");
-            int Num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine(Math.Pow(Num1, Num2));
+            //Console.WriteLine("Please enter num 1:");
+            //int Num1 = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter num 2 : ");
+            //int Num2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine(Math.Pow(Num1, Num2));
             #endregion
             #region Q10
             //10 - Write a program to enter marks of five subjects and calculate total, average and percentage.
-            //Console.WriteLine("Please enter grade 1 :");
-            //int Grade1 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Please enter grade 2 :");
-            //int Grade2 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Please enter grade 3 :");
-            //int Grade3 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Please enter grade 4 :");
-            //int Grade4 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Please enter grade 5 :");
-            //int Grade5 = int.Parse(Console.ReadLine());
-            //int total = 5;
-            //int Sum = Grade1+Grade2+Grade3+Grade4+Grade5;
-            //int Average = Sum/total;
-            //int Persentage = Average;
-            //Console.Clear();
-            //Console.WriteLine($"Total Marks is { Sum}");
-            //Console.WriteLine($"Average Marks is { Average}");
-            //Console.WriteLine($"Persentage of marks is { Persentage}%");
+            Console.WriteLine("Please enter grade 1 :");
+            int Grade1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter grade 2 :");
+            int Grade2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter grade 3 :");
+            int Grade3 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter grade 4 :");
+            int Grade4 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter grade 5 :");
+            int Grade5 = int.Parse(Console.ReadLine());
+            int total = 5;
+            int Sum = Grade1 + Grade2 + Grade3 + Grade4 + Grade5;
+            int Average = Sum / total;
+            int Persentage = Average;
+            Console.Clear();
+            Console.WriteLine($"Total Marks is {Sum}");
+            Console.WriteLine($"Average Marks is {Average}");
+            Console.WriteLine($"Persentage of marks is {Persentage}%");
 
 
 
