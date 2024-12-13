@@ -476,59 +476,59 @@ namespace Demo2
 
             #endregion
             #region Q11
-            Console.WriteLine("Please enter a mounth number");
-            int Mounth = int.Parse(Console.ReadLine());
-            switch (Mounth)
-            {
-                case 1:
-                    Console.WriteLine(31);
-                    break;
-                case 2:
-                    Console.WriteLine(28);
-                    break;
-                case 3:
-                    Console.WriteLine(31);
-                    break;
-                case 5:
-                    Console.WriteLine(31);
-                    break;
-                case 7:
-                    Console.WriteLine(31);
-                    break;
-                case 8:
-                    Console.WriteLine(31);
-                    break;
-                case 10:
-                    Console.WriteLine(31);
-                    break;
-                case 12:
-                    Console.WriteLine(31);
-                    break;
-                default:
-                    Console.WriteLine(30);
-                    break;
+            //Console.WriteLine("Please enter a mounth number");
+            //int Mounth = int.Parse(Console.ReadLine());
+            //switch (Mounth)
+            //{
+                //case 1:
+                    //Console.WriteLine(31);
+                    //break;
+                //case 2:
+                    //Console.WriteLine(28);
+                    //break;
+                //case 3:
+                    //Console.WriteLine(31);
+                    //break;
+                //case 5:
+                    //Console.WriteLine(31);
+                    //break;
+                //case 7:
+                    //Console.WriteLine(31);
+                    //break;
+                //case 8:
+                    //Console.WriteLine(31);
+                    //break;
+                //case 10:
+                    //Console.WriteLine(31);
+                    //break;
+                //case 12:
+                    //Console.WriteLine(31);
+                    //break;
+                //default:
+                    //Console.WriteLine(30);
+                    //break;
 
 
 
                     #endregion
-                    #region Q17
-                    /*
-                    int x1,y1,x2,y2,x3,y3;
-                    Console.WriteLine("Enter your first point(x1,y1): ");
-                    x1=int.Parse(Console.ReadLine());
-                    y1=int.Parse(Console.ReadLine());
-                    Console.WriteLine("Enter your second point(x2,y2): ");
-                    x2=int.Parse(Console.ReadLine());
-                    y2=int.Parse(Console.ReadLine());
-                    Console.WriteLine("Enter your Third point(x3,y3): ");
-                    x3=int.Parse(Console.ReadLine());
-                    y3=int.Parse(Console.ReadLine());
-                    int m1 = (y2 - y1) / (x2 - x1),m2 = (y3 - y2) / (x3 - x2);
-                    if (Math.Abs(m1) == Math.Abs(m2))   
-                        Console.WriteLine($"The points ({x1},{y1}) , ({x2},{y2}) , ({x3},{y3}) is in stright line");
-                    else
-                        Console.WriteLine("The points is not in a stright line");
-                    */
+            #region Q17
+                    ///*
+                    //int x1,y1,x2,y2,x3,y3;
+                    //Console.WriteLine("Enter your first point(x1,y1): ");
+                    //x1=int.Parse(Console.ReadLine());
+                    //y1=int.Parse(Console.ReadLine());
+                    //Console.WriteLine("Enter your second point(x2,y2): ");
+                    //x2=int.Parse(Console.ReadLine());
+                    //y2=int.Parse(Console.ReadLine());
+                    //Console.WriteLine("Enter your Third point(x3,y3): ");
+                    //x3=int.Parse(Console.ReadLine());
+                    //y3=int.Parse(Console.ReadLine());
+                    //int m1 = (y2 - y1) / (x2 - x1),m2 = (y3 - y2) / (x3 - x2);
+                    //if (Math.Abs(m1) == Math.Abs(m2))   
+                    //    Console.WriteLine($"The points ({x1},{y1}) , ({x2},{y2}) , ({x3},{y3}) is in stright line");
+                    //else
+                    //    Console.WriteLine("The points is not in a stright line");
+                    //*/
                     #endregion
                     #region Q18
                     //Console.WriteLine("Please enter duration time for your task");
