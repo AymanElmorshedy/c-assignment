@@ -331,54 +331,54 @@ namespace Demo2
             #region Q2
             //Write a program that allows the user to insert an integer then print negative if it is negative 
             //number otherwise print positive.
-            Console.Write("Please enter a number:");
-            int Number = int.Parse(Console.ReadLine());
-            if (Number > 0)
-            {
-                Console.WriteLine("Positive");
-            }
-            else
-            {
-                Console.WriteLine("Negative");
-            }
+            //Console.Write("Please enter a number:");
+            //int Number = int.Parse(Console.ReadLine());
+            //if (Number > 0)
+            //{
+            //    Console.WriteLine("Positive");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Negative");
+            //}
             #endregion
             #region Q3
 
             //Write a program that takes 3 integers from the user
             //then prints the max element and the min element.
-            //Console.WriteLine("Please inter num1: ");
-            //int Num1 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("please enter num 2:");
-            //int Num2 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Please enter num3 :");
-            //int Num3 = int.Parse(Console.ReadLine());
-            //int max = 0, min = 0;
+            Console.WriteLine("Please inter num1: ");
+            int Num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("please enter num 2:");
+            int Num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter num3 :");
+            int Num3 = int.Parse(Console.ReadLine());
+            int max = 0, min = 0;
 
-            //if (Num1 > Num2)
-            //{
-            //    max = Num1;
-            //    if (Num3 > max)
-            //        max = Num3;
-            //}
-            //if (Num2 > Num1)
-            //{
-            //    max = Num2;
-            //    if (Num3 > max)
-            //        max = Num3;
-            //}
-            //if (Num1 < Num2)
-            //{
-            //    min = Num1;
-            //    if (Num3 < min)
-            //        min = Num3;
-            //}
-            //if (Num2 < Num1)
-            //{
-            //    min = Num2;
-            //    if (Num3 < min)
-            //        min = Num3;
-            //}
-            //Console.WriteLine($"min is {min} and max is {max} ");
+            if (Num1 > Num2)
+            {
+                max = Num1;
+                if (Num3 > max)
+                    max = Num3;
+            }
+            if (Num2 > Num1)
+            {
+                max = Num2;
+                if (Num3 > max)
+                    max = Num3;
+            }
+            if (Num1 < Num2)
+            {
+                min = Num1;
+                if (Num3 < min)
+                    min = Num3;
+            }
+            if (Num2 < Num1)
+            {
+                min = Num2;
+                if (Num3 < min)
+                    min = Num3;
+            }
+            Console.WriteLine($"min is {min} and max is {max} ");
 
             #endregion
             #region Q4
