@@ -531,24 +531,24 @@ namespace Demo2
             //*/
             #endregion
             #region Q18
-            Console.WriteLine("Please enter duration time for your task");
-            double duration = double.Parse(Console.ReadLine());
-            if (duration >= 2 && duration <= 3)
-            {
-                Console.WriteLine("Highly efficient");
-            }
-            else if (duration > 3 && duration <= 4)
-            {
-                Console.WriteLine("increase your speed");
-            }
-            else if (duration > 4 && duration <= 5)
-            {
-                Console.WriteLine("provide with trainng to enhance your speed");
-            }
-            else if (duration > 5)
-            {
-                Console.WriteLine("you are reqired to leave the company");
-            }
+            //Console.WriteLine("Please enter duration time for your task");
+            //double duration = double.Parse(Console.ReadLine());
+            //if (duration >= 2 && duration <= 3)
+            //{
+            //    Console.WriteLine("Highly efficient");
+            //}
+            //else if (duration > 3 && duration <= 4)
+            //{
+            //    Console.WriteLine("increase your speed");
+            //}
+            //else if (duration > 4 && duration <= 5)
+            //{
+            //    Console.WriteLine("provide with trainng to enhance your speed");
+            //}
+            //else if (duration > 5)
+            //{
+            //    Console.WriteLine("you are reqired to leave the company");
+            //}
 
 
             #endregion
@@ -559,7 +559,7 @@ namespace Demo2
              */
 
             //int number1 = 10;
-            //int number2 = number1; 
+            //int number2 = number1;
 
             //Console.WriteLine("Before modification:");
             //Console.WriteLine($"number1= {number1}");
