@@ -312,10 +312,10 @@ namespace Demo2
             #endregion
             #region Assignment
             #region Q1
-            //1 - Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 
+            //1 - Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4
             //otherwise print no.
             //Console.WriteLine("Please enter a numberber : ");
-            //int number=int.Parse(Console.ReadLine());
+            //int number = int.Parse(Console.ReadLine());
             //if (number % 3 == 0 && number % 4 == 0)
             //{
             //    Console.WriteLine("Yes");
@@ -331,7 +331,7 @@ namespace Demo2
             #region Q2
             //Write a program that allows the user to insert an integer then print negative if it is negative 
             //number otherwise print positive.
-            //Console.Write("Please enter a number:"); 
+            //Console.Write("Please enter a number:");
             //int Number = int.Parse(Console.ReadLine());
             //if (Number > 0)
             //{
@@ -385,29 +385,29 @@ namespace Demo2
             //Write a program that allows the user to insert an integer number then check If a number is even or odd.
             //Console.WriteLine("Pleased entert a number:");
             //int Num = int.Parse(Console.ReadLine());
-            //if(Num % 2==0)
+            //if (Num % 2 == 0)
             //{
             //    Console.WriteLine($"{Num} is even number");
             //}
-            //else 
-            //    {
+            //else
+            //{
             //    Console.WriteLine($"{Num} is Odd number");
 
-            //    }
+            //}
             #endregion
             #region Q5
             //Write a program that takes character from the user then if it is a vowel chars(a, e, I, o, u)
             //then print(vowel) otherwise print(consonant).
             //Console.WriteLine("Please enter a char:");
             //string character = Console.ReadLine();
-            //switch(character)
+            //switch (character)
             //{
-            //    case "a" or  "A":
+            //    case "a" or "A":
             //        Console.WriteLine("vowel");
             //        break;
             //    case "e" or "E":
             //        Console.WriteLine("vowel");
-            //        break ;
+            //        break;
             //    case "o" or "O":
             //        Console.WriteLine("vowel");
             //        break;
@@ -444,10 +444,10 @@ namespace Demo2
             #region Q9
             //9- Write a program that takes two integers then prints the power.
             //Console.WriteLine("Please enter num 1:");
-            //int Num1=int.Parse(Console.ReadLine());
+            //int Num1 = int.Parse(Console.ReadLine());
             //Console.WriteLine("Please enter num 2 : ");
-            //int Num2=int.Parse(Console.ReadLine());
-            //Console.WriteLine(Math.Pow(Num1,Num2));
+            //int Num2 = int.Parse(Console.ReadLine());
+            //Console.WriteLine(Math.Pow(Num1, Num2));
             #endregion
             #region Q10
             //10 - Write a program to enter marks of five subjects and calculate total, average and percentage.
@@ -462,13 +462,13 @@ namespace Demo2
             //Console.WriteLine("Please enter grade 5 :");
             //int Grade5 = int.Parse(Console.ReadLine());
             //int total = 5;
-            //int Sum = Grade1+Grade2+Grade3+Grade4+Grade5;
-            //int Average = Sum/total;
+            //int Sum = Grade1 + Grade2 + Grade3 + Grade4 + Grade5;
+            //int Average = Sum / total;
             //int Persentage = Average;
             //Console.Clear();
-            //Console.WriteLine($"Total Marks is { Sum}");
-            //Console.WriteLine($"Average Marks is { Average}");
-            //Console.WriteLine($"Persentage of marks is { Persentage}%");
+            //Console.WriteLine($"Total Marks is {Sum}");
+            //Console.WriteLine($"Average Marks is {Average}");
+            //Console.WriteLine($"Persentage of marks is {Persentage}%");
 
 
 
@@ -478,57 +478,57 @@ namespace Demo2
             #region Q11
             //Console.WriteLine("Please enter a mounth number");
             //int Mounth = int.Parse(Console.ReadLine());
-            //switch(Mounth)
+            //switch (Mounth)
             //{
-            //    case 1:
-            //        Console.WriteLine(31);
-            //        break;
-            //    case 2:
-            //        Console.WriteLine(28);
-            //        break;
-            //    case 3:
-            //        Console.WriteLine(31);
-            //        break;
-            //    case 5:
-            //        Console.WriteLine(31);
-            //        break;
-            //    case 7:
-            //        Console.WriteLine(31);
-            //        break;
-            //    case 8:
-            //        Console.WriteLine(31);
-            //        break;
-            //    case 10:
-            //        Console.WriteLine(31);
-            //        break;
-            //    case 12:
-            //        Console.WriteLine(31);
-            //        break;
-            //    default:
-            //        Console.WriteLine(30);
-            //        break;
+            //case 1:
+            //Console.WriteLine(31);
+            //break;
+            //case 2:
+            //Console.WriteLine(28);
+            //break;
+            //case 3:
+            //Console.WriteLine(31);
+            //break;
+            //case 5:
+            //Console.WriteLine(31);
+            //break;
+            //case 7:
+            //Console.WriteLine(31);
+            //break;
+            //case 8:
+            //Console.WriteLine(31);
+            //break;
+            //case 10:
+            //Console.WriteLine(31);
+            //break;
+            //case 12:
+            //Console.WriteLine(31);
+            //break;
+            //default:
+            //Console.WriteLine(30);
+            //break;
 
 
 
             #endregion
             #region Q17
-            /*
-            int x1,y1,x2,y2,x3,y3;
-            Console.WriteLine("Enter your first point(x1,y1): ");
-            x1=int.Parse(Console.ReadLine());
-            y1=int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter your second point(x2,y2): ");
-            x2=int.Parse(Console.ReadLine());
-            y2=int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter your Third point(x3,y3): ");
-            x3=int.Parse(Console.ReadLine());
-            y3=int.Parse(Console.ReadLine());
-            int m1 = (y2 - y1) / (x2 - x1),m2 = (y3 - y2) / (x3 - x2);
-            if (Math.Abs(m1) == Math.Abs(m2))   
-                Console.WriteLine($"The points ({x1},{y1}) , ({x2},{y2}) , ({x3},{y3}) is in stright line");
-            else
-                Console.WriteLine("The points is not in a stright line");
-            */
+            ///*
+            //int x1,y1,x2,y2,x3,y3;
+            //Console.WriteLine("Enter your first point(x1,y1): ");
+            //x1=int.Parse(Console.ReadLine());
+            //y1=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter your second point(x2,y2): ");
+            //x2=int.Parse(Console.ReadLine());
+            //y2=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter your Third point(x3,y3): ");
+            //x3=int.Parse(Console.ReadLine());
+            //y3=int.Parse(Console.ReadLine());
+            //int m1 = (y2 - y1) / (x2 - x1),m2 = (y3 - y2) / (x3 - x2);
+            //if (Math.Abs(m1) == Math.Abs(m2))   
+            //    Console.WriteLine($"The points ({x1},{y1}) , ({x2},{y2}) , ({x3},{y3}) is in stright line");
+            //else
+            //    Console.WriteLine("The points is not in a stright line");
+            //*/
             #endregion
             #region Q18
             //Console.WriteLine("Please enter duration time for your task");
@@ -545,7 +545,7 @@ namespace Demo2
             //{
             //    Console.WriteLine("provide with trainng to enhance your speed");
             //}
-            //else if (duration > 5 )
+            //else if (duration > 5)
             //{
             //    Console.WriteLine("you are reqired to leave the company");
             //}
@@ -559,7 +559,7 @@ namespace Demo2
              */
 
             //int number1 = 10;
-            //int number2 = number1; 
+            //int number2 = number1;
 
             //Console.WriteLine("Before modification:");
             //Console.WriteLine($"number1= {number1}");
@@ -575,9 +575,9 @@ namespace Demo2
             //This shows that the value types are stored as separate copies, and modifying one copy does not affect the other.
             #endregion
             #region Q22
-            //object obj1 = new object ();
+            //object obj1 = new object();
             //obj1 = "Ayman";
-            //object obj2 = new object ();
+            //object obj2 = new object();
             //obj2 = obj1;
 
 
@@ -605,7 +605,7 @@ namespace Demo2
             #region Q24
             //24-	Which of the following is the correct output for the C# code given below?
             //Console.WriteLine(13 / 2 + " " + 13 % 2); 
-            // Answer d)6 1
+             //Answer d)6 1
             #endregion
             #region Q25
             //25-What will be the output of the C# code given below?
