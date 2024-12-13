@@ -383,45 +383,45 @@ namespace Demo2
             #endregion
             #region Q4
             //Write a program that allows the user to insert an integer number then check If a number is even or odd.
-            Console.WriteLine("Pleased entert a number:");
-            int Num = int.Parse(Console.ReadLine());
-            if (Num % 2 == 0)
-            {
-                Console.WriteLine($"{Num} is even number");
-            }
-            else
-            {
-                Console.WriteLine($"{Num} is Odd number");
+            //Console.WriteLine("Pleased entert a number:");
+            //int Num = int.Parse(Console.ReadLine());
+            //if (Num % 2 == 0)
+            //{
+            //    Console.WriteLine($"{Num} is even number");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{Num} is Odd number");
 
-            }
+            //}
             #endregion
             #region Q5
             //Write a program that takes character from the user then if it is a vowel chars(a, e, I, o, u)
             //then print(vowel) otherwise print(consonant).
-            //Console.WriteLine("Please enter a char:");
-            //string character = Console.ReadLine();
-            //switch(character)
-            //{
-            //    case "a" or  "A":
-            //        Console.WriteLine("vowel");
-            //        break;
-            //    case "e" or "E":
-            //        Console.WriteLine("vowel");
-            //        break ;
-            //    case "o" or "O":
-            //        Console.WriteLine("vowel");
-            //        break;
-            //    case "i" or "I":
-            //        Console.WriteLine("vowel");
-            //        break;
-            //    case "u" or "U":
-            //        Console.WriteLine("vowel");
-            //        break;
-            //    default:
-            //        Console.WriteLine("consonant");
-            //        break;
+            Console.WriteLine("Please enter a char:");
+            string character = Console.ReadLine();
+            switch (character)
+            {
+                case "a" or "A":
+                    Console.WriteLine("vowel");
+                    break;
+                case "e" or "E":
+                    Console.WriteLine("vowel");
+                    break;
+                case "o" or "O":
+                    Console.WriteLine("vowel");
+                    break;
+                case "i" or "I":
+                    Console.WriteLine("vowel");
+                    break;
+                case "u" or "U":
+                    Console.WriteLine("vowel");
+                    break;
+                default:
+                    Console.WriteLine("consonant");
+                    break;
 
-            //}
+            }
             #endregion
             #region Q7
 
