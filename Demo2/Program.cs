@@ -427,27 +427,27 @@ namespace Demo2
 
             //Write a program that allows the user to insert an integer then
             //print a multiplication table up to 12.
-            Console.WriteLine("Please enter a number:");
-            int Num = int.Parse(Console.ReadLine());
-            int mul;
-            Console.Clear();
+            //Console.WriteLine("Please enter a number:");
+            //int Num = int.Parse(Console.ReadLine());
+            //int mul;
+            //Console.Clear();
 
-            for (int i = 1; i <= 12; i++)
-            {
-                mul = Num * i;
-                Console.WriteLine(mul);
+            //for (int i = 1; i <= 12; i++)
+            //{
+            //    mul = Num * i;
+            //    Console.WriteLine(mul);
 
-            }
+            //}
 
 
             #endregion
             #region Q9
             //9- Write a program that takes two integers then prints the power.
-            //Console.WriteLine("Please enter num 1:");
-            //int Num1=int.Parse(Console.ReadLine());
-            //Console.WriteLine("Please enter num 2 : ");
-            //int Num2=int.Parse(Console.ReadLine());
-            //Console.WriteLine(Math.Pow(Num1,Num2));
+            Console.WriteLine("Please enter num 1:");
+            int Num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter num 2 : ");
+            int Num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine(Math.Pow(Num1, Num2));
             #endregion
             #region Q10
             //10 - Write a program to enter marks of five subjects and calculate total, average and percentage.
