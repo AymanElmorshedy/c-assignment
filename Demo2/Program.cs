@@ -480,146 +480,146 @@ namespace Demo2
             //int Mounth = int.Parse(Console.ReadLine());
             //switch (Mounth)
             //{
-                //case 1:
-                    //Console.WriteLine(31);
-                    //break;
-                //case 2:
-                    //Console.WriteLine(28);
-                    //break;
-                //case 3:
-                    //Console.WriteLine(31);
-                    //break;
-                //case 5:
-                    //Console.WriteLine(31);
-                    //break;
-                //case 7:
-                    //Console.WriteLine(31);
-                    //break;
-                //case 8:
-                    //Console.WriteLine(31);
-                    //break;
-                //case 10:
-                    //Console.WriteLine(31);
-                    //break;
-                //case 12:
-                    //Console.WriteLine(31);
-                    //break;
-                //default:
-                    //Console.WriteLine(30);
-                    //break;
+            //case 1:
+            //Console.WriteLine(31);
+            //break;
+            //case 2:
+            //Console.WriteLine(28);
+            //break;
+            //case 3:
+            //Console.WriteLine(31);
+            //break;
+            //case 5:
+            //Console.WriteLine(31);
+            //break;
+            //case 7:
+            //Console.WriteLine(31);
+            //break;
+            //case 8:
+            //Console.WriteLine(31);
+            //break;
+            //case 10:
+            //Console.WriteLine(31);
+            //break;
+            //case 12:
+            //Console.WriteLine(31);
+            //break;
+            //default:
+            //Console.WriteLine(30);
+            //break;
 
 
 
-                    #endregion
+            #endregion
             #region Q17
-                    ///*
-                    //int x1,y1,x2,y2,x3,y3;
-                    //Console.WriteLine("Enter your first point(x1,y1): ");
-                    //x1=int.Parse(Console.ReadLine());
-                    //y1=int.Parse(Console.ReadLine());
-                    //Console.WriteLine("Enter your second point(x2,y2): ");
-                    //x2=int.Parse(Console.ReadLine());
-                    //y2=int.Parse(Console.ReadLine());
-                    //Console.WriteLine("Enter your Third point(x3,y3): ");
-                    //x3=int.Parse(Console.ReadLine());
-                    //y3=int.Parse(Console.ReadLine());
-                    //int m1 = (y2 - y1) / (x2 - x1),m2 = (y3 - y2) / (x3 - x2);
-                    //if (Math.Abs(m1) == Math.Abs(m2))   
-                    //    Console.WriteLine($"The points ({x1},{y1}) , ({x2},{y2}) , ({x3},{y3}) is in stright line");
-                    //else
-                    //    Console.WriteLine("The points is not in a stright line");
-                    //*/
-                    #endregion
-                    #region Q18
-                    //Console.WriteLine("Please enter duration time for your task");
-                    //double duration = double.Parse(Console.ReadLine());
-                    //if (duration >= 2 && duration <= 3)
-                    //{
-                    //    Console.WriteLine("Highly efficient");
-                    //}
-                    //else if (duration > 3 && duration <= 4)
-                    //{
-                    //    Console.WriteLine("increase your speed");
-                    //}
-                    //else if (duration > 4 && duration <= 5)
-                    //{
-                    //    Console.WriteLine("provide with trainng to enhance your speed");
-                    //}
-                    //else if (duration > 5 )
-                    //{
-                    //    Console.WriteLine("you are reqired to leave the company");
-                    //}
-
-
-                    #endregion
-                    #region Q21
-                    /*
-                    Write C# program that Assigning one value type variable to another and 
-                    modifying the value of one variable and mention what will happen
-                     */
-
-                    //int number1 = 10;
-                    //int number2 = number1; 
-
-                    //Console.WriteLine("Before modification:");
-                    //Console.WriteLine($"number1= {number1}");
-                    //Console.WriteLine($"number2 = {number2}");
-
-
-                    //number1 = 20;
-
-
-                    //Console.WriteLine("\nAfter modification:");
-                    //Console.WriteLine($"number1= {number1}");
-                    //Console.WriteLine($"number2 = {number2}");
-                    //This shows that the value types are stored as separate copies, and modifying one copy does not affect the other.
-                    #endregion
-                    #region Q22
-                    //object obj1 = new object ();
-                    //obj1 = "Ayman";
-                    //object obj2 = new object ();
-                    //obj2 = obj1;
-
-
-                    //Console.WriteLine("Before modification:");
-                    //Console.WriteLine($"obj1= {obj1} ");
-                    //Console.WriteLine($"obj2 = {obj2}");
-
-
-                    //obj1 = "Ali";
-
-                    //Console.WriteLine("After modification:");
-                    //Console.WriteLine($"obj1= {obj1} ");
-                    //Console.WriteLine($"obj2 = {obj2}");
-                    //When you assign a reference variable to another, both variables refer to the same object, so any modification to the object affects all references to it.
-                    #endregion
-                    #region Q23
-
-                    //23 - Which of the following statements is correct about the C#.NET code snippet given below?
-
-                    //int d;
-                    //d = Convert.ToInt32(!(30 < 20));
-                    //Answer b)	A value 1 will be assigned to d.
-
-                    #endregion
-                    #region Q24
-                    //24-	Which of the following is the correct output for the C# code given below?
-                    //Console.WriteLine(13 / 2 + " " + 13 % 2); 
-                    // Answer d)6 1
-                    #endregion
-                    #region Q25
-                    //25-What will be the output of the C# code given below?
-                    //int num = 1, z = 5;
-
-                    //if (!(num <= 0))
-                    //    Console.WriteLine(++num + z++ + " " + ++z);
-                    //else
-                    //    Console.WriteLine(--num + z-- + " " + --z);
-                    //Answer > d)7 7
-                    #endregion
-
-                    #endregion
+            ///*
+            //int x1,y1,x2,y2,x3,y3;
+            //Console.WriteLine("Enter your first point(x1,y1): ");
+            //x1=int.Parse(Console.ReadLine());
+            //y1=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter your second point(x2,y2): ");
+            //x2=int.Parse(Console.ReadLine());
+            //y2=int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter your Third point(x3,y3): ");
+            //x3=int.Parse(Console.ReadLine());
+            //y3=int.Parse(Console.ReadLine());
+            //int m1 = (y2 - y1) / (x2 - x1),m2 = (y3 - y2) / (x3 - x2);
+            //if (Math.Abs(m1) == Math.Abs(m2))   
+            //    Console.WriteLine($"The points ({x1},{y1}) , ({x2},{y2}) , ({x3},{y3}) is in stright line");
+            //else
+            //    Console.WriteLine("The points is not in a stright line");
+            //*/
+            #endregion
+            #region Q18
+            Console.WriteLine("Please enter duration time for your task");
+            double duration = double.Parse(Console.ReadLine());
+            if (duration >= 2 && duration <= 3)
+            {
+                Console.WriteLine("Highly efficient");
             }
+            else if (duration > 3 && duration <= 4)
+            {
+                Console.WriteLine("increase your speed");
+            }
+            else if (duration > 4 && duration <= 5)
+            {
+                Console.WriteLine("provide with trainng to enhance your speed");
+            }
+            else if (duration > 5)
+            {
+                Console.WriteLine("you are reqired to leave the company");
+            }
+
+
+            #endregion
+            #region Q21
+            /*
+            Write C# program that Assigning one value type variable to another and 
+            modifying the value of one variable and mention what will happen
+             */
+
+            //int number1 = 10;
+            //int number2 = number1; 
+
+            //Console.WriteLine("Before modification:");
+            //Console.WriteLine($"number1= {number1}");
+            //Console.WriteLine($"number2 = {number2}");
+
+
+            //number1 = 20;
+
+
+            //Console.WriteLine("\nAfter modification:");
+            //Console.WriteLine($"number1= {number1}");
+            //Console.WriteLine($"number2 = {number2}");
+            //This shows that the value types are stored as separate copies, and modifying one copy does not affect the other.
+            #endregion
+            #region Q22
+            //object obj1 = new object ();
+            //obj1 = "Ayman";
+            //object obj2 = new object ();
+            //obj2 = obj1;
+
+
+            //Console.WriteLine("Before modification:");
+            //Console.WriteLine($"obj1= {obj1} ");
+            //Console.WriteLine($"obj2 = {obj2}");
+
+
+            //obj1 = "Ali";
+
+            //Console.WriteLine("After modification:");
+            //Console.WriteLine($"obj1= {obj1} ");
+            //Console.WriteLine($"obj2 = {obj2}");
+            //When you assign a reference variable to another, both variables refer to the same object, so any modification to the object affects all references to it.
+            #endregion
+            #region Q23
+
+            //23 - Which of the following statements is correct about the C#.NET code snippet given below?
+
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20));
+            //Answer b)	A value 1 will be assigned to d.
+
+            #endregion
+            #region Q24
+            //24-	Which of the following is the correct output for the C# code given below?
+            //Console.WriteLine(13 / 2 + " " + 13 % 2); 
+            // Answer d)6 1
+            #endregion
+            #region Q25
+            //25-What will be the output of the C# code given below?
+            //int num = 1, z = 5;
+
+            //if (!(num <= 0))
+            //    Console.WriteLine(++num + z++ + " " + ++z);
+            //else
+            //    Console.WriteLine(--num + z-- + " " + --z);
+            //Answer > d)7 7
+            #endregion
+
+            #endregion
+        }
 
 
     }
